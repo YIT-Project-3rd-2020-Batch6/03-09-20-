@@ -1,0 +1,158 @@
+*{
+	paddding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+body{
+
+	background: url(images.jpg);
+	background-size:cover;
+	background-position:center;
+	
+	font-family:sans-serif;
+	
+}
+.menu-bar{
+	background: rgb(250,0,0);
+	text-align:center;
+}
+
+
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar ul li
+{
+	width:140px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+.active,.menu-bar ul li:hover
+{
+	background:#ffc107;
+	border-radius:3px;
+}
+.menu-bar .fa{
+	margin-right:8px;
+}
+.sub-menu-1{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background: rgb(250,0,0);
+	margin-top:15px;
+	margin-left:15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	border-radius:0;
+	text-align:left:
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color:#ffc107;
+}
+.search-form{
+	margin-top:25px;
+	float:right;
+	margin-right:100px;
+}
+.search-form input[type=text]{
+	padding:7px;
+	border:none;
+	font-size:11px;
+	font-family:sans-serif;
+}
+.search-form button{
+	float:right;
+	background:#ffc107;
+	color:white;
+	border-radius:0 3px 3px 0;
+	cursor:pointer;
+	position:relative;
+	padding:7px;
+	font-family:sans-serif;
+	border:none;
+	font-size:11px;
+}
+h1{
+	font-size:2.1rem;
+	line-height:1.4;
+	letter-spacing:2px;
+	color:black;
+	margin-top:20px;
+	text-align:center;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis:50%;
+	min-width:300px;
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin:50px;
+}
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin:30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: #563434;
+}
+.header{
+	background: radial-gradient(#fff, #ffd6d6);
+}
+.header .row{
+	margin-top: 70px;
+}
+.categories{
+	margin: 70px 0;
+}
+.col-3{
+	flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px; 	
+}
+.col-3 img{
+	width: 300px;
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}

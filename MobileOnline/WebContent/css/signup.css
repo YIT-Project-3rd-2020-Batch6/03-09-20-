@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin:0;
+	padding:0;
+	background: url(images.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+.sign-up-form{
+	width:500px;
+	
+	background:#000;
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+	
+}
+h1{
+	text-align:center;
+	padding:5px;
+	border-bottom: solid #fb2525;
+	margin-bottom:40px;
+	}
+
+.sign-up-form p{
+	margin:5px;
+	padding:1px;
+	font-size:15px;
+	font-weight:bold;
+	font-family:sans-serif;	
+}
+#name{
+	width:400px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	color:#fff;
+	padding:7px 3px;
+	margin-bottom:10px;
+}
+#ph{
+	width:65px;
+	padding:7px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	margin-bottom:10px;
+	
+	}
+#num
+	{
+		width:315px;
+	padding:7px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	margin-bottom:10px;
+	}
+	
+#secretquestion{
+		width:400px;
+	padding:7px;
+	border:none;
+	border-radius:3px;
+	outline:0;
+	margin-bottom:10px;
+	
+}
+ .sign-up-form input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:3px;
+	font-size:16px;
+	font-family:sans-serif;
+	width:400px;
+}
+.sign-up-form  input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+
